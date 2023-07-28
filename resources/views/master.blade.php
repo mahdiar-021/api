@@ -18,7 +18,7 @@
     <script src="/js/jquery-1.8.3.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     
-    <title>admin_panel</title>
+    <title>admin panel</title>
     @yield('styles')
 </head>
 
