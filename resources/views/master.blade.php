@@ -51,6 +51,7 @@
     <!-- /.container -->
     @yield('scripts')
     <script>
+        console.log('hello commits');
         window.Laravel = {};
         window.Laravel.Auth = '{{ Auth::check() }}' == '' ? false : true;
         window.Laravel.csrfToken = '{{ csrf_token() }}'
